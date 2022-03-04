@@ -1,27 +1,19 @@
 {
   "name": "coindex",
   "version": "1.0.0",
-  "description": "Node.js application where I have developed a CLI(Command-line Interface) to check Cryptocurrencies prices.",
+  "description": "",
   "main": "index.js",
-  "bin": "bin/coindex.js",
+  "bin": "./bin/coindex.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Procoder16/CLI_Crypto.git"
-  },
-  "author": "Soumik Mukherjee",
+  "author": "Brad Traversy",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Procoder16/CLI_Crypto/issues"
-  },
-  "homepage": "https://github.com/Procoder16/CLI_Crypto#readme",
   "dependencies": {
-    "axios": "^0.26.0",
+    "axios": "^0.19.2",
     "colors": "^1.4.0",
-    "commander": "^9.0.0",
-    "configstore": "^6.0.0",
-    "inquirer": "^8.2.0"
+    "commander": "^5.0.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^7.1.0"
   }
 }
